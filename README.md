@@ -20,3 +20,9 @@ Before doing anything, run the following command in PowerShell:
 
 ```powershell
 Get-ChildItem -Path \\.\pipe\ | Where-Object { $_.Name -like "discord-ipc-*" }
+```
+If you dont get output execute on powershell this command
+
+```powershell
+taskkill /F /T /IM "discord.exe"
+```
