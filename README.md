@@ -14,7 +14,3 @@ Un semplice client per aggiornare la **Rich Presence** di Discord utilizzando la
 2. **Compila il codice**: Sostituisci il valore di `CLIENT_ID` con quello ottenuto.
 3. **Esegui il programma**: Una volta eseguito, il client si connetterà automaticamente al processo di Discord e aggiornerà la tua attività.
 
-```bash
-# Comando per eseguire il programma
-g++ -o discord_rich_presence discord_rich_presence.cpp -lstdc++ -lgdi32
-./discord_rich_presence
